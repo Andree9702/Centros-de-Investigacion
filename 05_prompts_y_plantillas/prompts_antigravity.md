@@ -1,7 +1,7 @@
-# Prompt Maestro para Análisis de IPPC y Clustering de Docentes Investigadores
+# Prompt Maestro para Análisis de IPPC y Clustering de Docentes - UTMACH
 
 ## Rol y Contexto
-Actúas como un **experto en ciencia de datos aplicada a gestión universitaria** con especialización en bibliometría y evaluación de la investigación científica. Tu objetivo es analizar el Índice Ponderado de Producción Científica (IPPC) de los docentes para fundamentar técnicamente la creación de Centros de Investigación.
+Actúas como un **experto en ciencia de datos aplicada a gestión universitaria** con especialización en bibliometría y evaluación de la investigación científica. Tu objetivo es analizar el Índice Ponderado de Producción Científica (IPPC) de los docentes de la **Universidad Técnica de Machala (UTMACH)** para fundamentar técnicamente la creación de Centros de Investigación.
 
 ---
 
@@ -9,8 +9,21 @@ Actúas como un **experto en ciencia de datos aplicada a gestión universitaria*
 Realizar un análisis exhaustivo del dataset de IPPC por docente para:
 1. Identificar la **masa crítica de investigadores** por facultad.
 2. Agrupar docentes en **clusters temáticos** según su productividad y perfil.
-3. Generar un ranking de facultades según su **madurez investigativa**.
+3. Generar un **ranking de las 5 facultades** según su madurez investigativa.
 4. Proponer qué facultades están listas para crear un Centro de Investigación formal.
+5. **Prioridad:** Validar si FCA y FCQS son aptas para centros piloto.
+
+---
+
+## Facultades de la UTMACH
+
+| Sigla | Nombre Completo | Prioridad |
+|-------|-----------------|-----------|
+| `FCA` | Facultad de Ciencias Agropecuarias | 🔴 Alta (Centro Piloto) |
+| `FCQS` | Facultad de Ciencias Químicas y de la Salud | 🔴 Alta (Centro Piloto) |
+| `FCE` | Facultad de Ciencias Empresariales | 🟡 Media |
+| `FIC` | Facultad de Ingeniería Civil | 🟡 Media |
+| `FCS` | Facultad de Ciencias Sociales | 🟡 Media |
 
 ---
 
@@ -18,14 +31,14 @@ Realizar un análisis exhaustivo del dataset de IPPC por docente para:
 
 | Variable | Descripción | Tipo |
 |----------|-------------|------|
-| `id_docente` | Identificador único (DNI o código) | String/Int |
+| `id_docente` | Identificador único (cédula o código) | String/Int |
 | `nombres` | Nombre completo del docente | String |
-| `facultad` | Facultad de adscripción (FCA, FCQS, etc.) | String |
-| `categoria` | Categoría docente (Principal, Asociado, Auxiliar) | String |
-| `dedicacion` | Régimen (Tiempo Completo, Tiempo Parcial, Dedicación Exclusiva) | String |
+| `facultad` | Facultad de adscripción (FCA, FCQS, FCE, FIC, FCS) | String |
+| `categoria` | Categoría docente (Principal, Agregado, Auxiliar) | String |
+| `dedicacion` | Régimen (Tiempo Completo, Medio Tiempo, Tiempo Parcial) | String |
 | `tiene_doctorado` | Si posee grado de Doctor (PhD) | Booleano |
-| `acreditado_senescyt` | Si está acreditado como investigador por SENESCYT | Booleano |
-| `categoria_senescyt` | Categoría SENESCYT (Investigador Titular, Agregado, Auxiliar) si aplica | String |
+| `acreditado_senescyt` | Si está acreditado como investigador SENESCYT | Booleano |
+| `categoria_senescyt` | Categoría SENESCYT (Investigador Titular, Agregado, Auxiliar) | String |
 | `ippc` | Índice Ponderado de Producción Científica | Float |
 | `articulos_scopus` | Número de artículos indexados en Scopus | Int |
 | `articulos_wos` | Número de artículos indexados en WoS | Int |
@@ -39,20 +52,20 @@ Realizar un análisis exhaustivo del dataset de IPPC por docente para:
 ### Fase 1: Exploración y Limpieza de Datos
 1. Carga el archivo Excel/CSV desde `01_datos/raw/`.
 2. Realiza un análisis exploratorio inicial:
-   - Número total de registros por facultad.
+   - Número total de registros por facultad (FCA, FCQS, FCE, FIC, FCS).
    - Estadísticas descriptivas del IPPC (media, mediana, desviación estándar, mínimo, máximo).
    - Identifica valores nulos, duplicados o inconsistentes.
 3. Genera una versión limpia y guárdala en `01_datos/clean/`.
 
 ### Fase 2: Análisis Descriptivo por Facultad
-1. Calcula para cada facultad:
+1. Calcula para cada una de las **5 facultades**:
    - **N° total de docentes**
    - **N° de doctores (PhD)**
    - **N° de investigadores acreditados SENESCYT** (y distribución por categorías)
    - **IPPC promedio y mediana**
    - **Suma total de producción** (artículos Scopus + WoS + libros)
 2. Genera un **ranking de facultades** ordenado por IPPC promedio.
-3. Identifica las **top 3 facultades** con mayor potencial investigativo.
+3. Identifica las **top 2 facultades** (esperamos FCA y FCQS).
 
 ### Fase 3: Segmentación y Clustering de Docentes
 Clasifica a los docentes en 4 niveles según su IPPC:
@@ -90,7 +103,7 @@ Clasifica cada facultad como:
 ### Fase 5: Visualizaciones Requeridas
 Genera los siguientes gráficos y guárdalos en `02_analisis/resultados/`:
 
-1. **Boxplot de IPPC por Facultad:** Comparación de distribuciones.
+1. **Boxplot de IPPC por Facultad:** Comparación de las 5 facultades.
 2. **Gráfico de Barras:** Ranking de facultades por IMC.
 3. **Gráfico de Torta por Facultad:** Distribución de clusters (A, B, C, D).
 4. **Heatmap:** Correlación entre variables (IPPC, artículos, acreditación SENESCYT, doctorado).
@@ -102,19 +115,19 @@ Genera los siguientes gráficos y guárdalos en `02_analisis/resultados/`:
 
 ### 1. Resumen Ejecutivo (máx. 1 página)
 - 3 hallazgos principales.
-- Facultades recomendadas para crear Centro de Investigación.
+- **Confirmación o rechazo** de FCA y FCQS como centros piloto.
 - Alertas o banderas rojas identificadas.
 
 ### 2. Tablas de Resultados
-- Ranking de facultades por IPPC promedio.
+- Ranking de las 5 facultades por IPPC promedio.
 - Ranking de facultades por Índice de Masa Crítica (IMC).
 - Lista de investigadores Cluster A (élite) por facultad.
-- Matriz de viabilidad (🟢🟡🔴) por facultad.
+- Matriz de viabilidad (🟢🟡🔴) para las 5 facultades.
 
 ### 3. Recomendaciones Estratégicas
-- ¿Qué facultades deberían crear un centro en el corto plazo?
-- ¿Qué facultades necesitan un plan de fortalecimiento antes?
-- ¿Qué acciones concretas se recomiendan para cada escenario?
+- ¿FCA y FCQS deben crear centro en el corto plazo?
+- ¿Alguna otra facultad (FCE, FIC, FCS) tiene potencial oculto?
+- ¿Qué acciones de fortalecimiento se recomiendan?
 
 ### 4. Anexos Técnicos
 - Código Python utilizado (guardar en `02_analisis/scripts/`).
@@ -126,4 +139,5 @@ Genera los siguientes gráficos y guárdalos en `02_analisis/resultados/`:
 ## Notas Adicionales
 - Todos los análisis deben ser **reproducibles** (código comentado y datos versionados).
 - Usar **pandas**, **matplotlib/seaborn** y **scikit-learn** si se requiere clustering avanzado.
-- Redactar en **tono institucional y formal**, adecuado para presentación a autoridades universitarias.
+- Redactar en **tono institucional y formal**, adecuado para presentación a autoridades de la UTMACH.
+- El proyecto está liderado por **PhD. Ivan Ramirez** (Director DIDI) y **MSc. Luiggi Solano**.

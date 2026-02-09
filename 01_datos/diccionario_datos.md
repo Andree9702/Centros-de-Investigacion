@@ -1,29 +1,41 @@
-# 📊 Diccionario de Datos
+# 📊 Diccionario de Datos - UTMACH
 
-Este documento define la estructura esperada para los conjuntos de datos utilizados en el análisis de viabilidad de Centros de Investigación.
+Este documento define la estructura esperada para los conjuntos de datos de IPPC de la Universidad Técnica de Machala.
 
 ---
 
 ## Fuentes de Datos
 
-| Fuente | Descripción | Formato | Ubicación |
+| Fuente | Descripción | Formato | Proveedor |
 |--------|-------------|---------|-----------|
-| Nómina Docente | Lista oficial de docentes por facultad | Excel/CSV | `01_datos/raw/` |
-| Registro SENESCYT | Investigadores acreditados | Excel/CSV | `01_datos/raw/` |
-| IPPC Institucional | Índice Ponderado de Producción Científica | Excel | `01_datos/raw/` |
+| Excel IPPC | Índice Ponderado de Producción Científica de todos los docentes | Excel | DIDI |
+| Nómina Docente | Lista oficial de docentes por facultad | Excel/CSV | Talento Humano |
+| Registro SENESCYT | Investigadores acreditados | Excel/CSV | DIDI |
+
+---
+
+## Facultades de la UTMACH
+
+| Código | Nombre Completo |
+|--------|-----------------|
+| `FCA` | Facultad de Ciencias Agropecuarias |
+| `FCQS` | Facultad de Ciencias Químicas y de la Salud |
+| `FCE` | Facultad de Ciencias Empresariales |
+| `FIC` | Facultad de Ingeniería Civil |
+| `FCS` | Facultad de Ciencias Sociales |
 
 ---
 
 ## Tabla Principal: Docentes con IPPC
 
-**Archivo:** `docentes_ippc.xlsx` o `docentes_ippc.csv`
+**Archivo esperado:** `ippc_docentes_utmach.xlsx` o similar
 
 | Campo | Tipo | Descripción | Ejemplo | Obligatorio | Valores Permitidos |
 |-------|------|-------------|---------|-------------|-------------------|
 | `id_docente` | String/Int | Identificador único (cédula o código) | `0912345678` | ✅ Sí | Cédula ecuatoriana (10 dígitos) |
 | `nombres` | String | Nombres completos del docente | `Juan Carlos Pérez López` | ✅ Sí | Texto libre |
-| `facultad` | String | Facultad de adscripción | `FCA` | ✅ Sí | `FCA`, `FCQS`, `FCI`, `FCE`, `FCS`, etc. |
-| `carrera` | String | Carrera donde dicta | `Contabilidad` | ❌ No | Texto libre |
+| `facultad` | String | Facultad de adscripción | `FCA` | ✅ Sí | `FCA`, `FCQS`, `FCE`, `FIC`, `FCS` |
+| `carrera` | String | Carrera donde dicta | `Agronomía` | ❌ No | Texto libre |
 | `categoria` | String | Categoría docente | `Principal` | ✅ Sí | `Principal`, `Agregado`, `Auxiliar`, `Ocasional` |
 | `dedicacion` | String | Régimen de dedicación | `Tiempo Completo` | ✅ Sí | `Tiempo Completo`, `Medio Tiempo`, `Tiempo Parcial` |
 | `tiene_doctorado` | Booleano | Si posee grado de Doctor (PhD) | `Sí` | ✅ Sí | `Sí`, `No` |
@@ -38,35 +50,18 @@ Este documento define la estructura esperada para los conjuntos de datos utiliza
 | `tesis_maestria` | Int | Tesis de maestría dirigidas | `6` | ❌ No | Entero ≥ 0 |
 | `tesis_doctorado` | Int | Tesis doctorales dirigidas | `1` | ❌ No | Entero ≥ 0 |
 | `proyectos_investigacion` | Int | Proyectos de investigación liderados | `3` | ❌ No | Entero ≥ 0 |
-| `grupo_investigacion` | String | Nombre del grupo al que pertenece | `GI-Finanzas Sostenibles` | ❌ No | Texto libre |
-| `linea_investigacion` | String | Línea principal de investigación | `Contabilidad Ambiental` | ❌ No | Texto libre |
-| `email` | String | Correo electrónico institucional | `jperez@universidad.edu.ec` | ❌ No | Email válido |
-
----
-
-## Tabla Secundaria: Asignaturas
-
-**Archivo:** `asignaturas.xlsx` o `asignaturas.csv`
-
-| Campo | Tipo | Descripción | Ejemplo | Obligatorio |
-|-------|------|-------------|---------|-------------|
-| `codigo_asignatura` | String | Código único de la asignatura | `CONT-101` | ✅ Sí |
-| `nombre` | String | Nombre de la asignatura | `Contabilidad General I` | ✅ Sí |
-| `id_docente` | String/Int | Cédula del docente (FK) | `0912345678` | ✅ Sí |
-| `periodo` | String | Período académico | `2025-2S` | ✅ Sí |
-| `horas_teoria` | Int | Horas de teoría semanales | `2` | ✅ Sí |
-| `horas_practica` | Int | Horas de práctica semanales | `2` | ✅ Sí |
-| `paralelos` | Int | Número de paralelos asignados | `3` | ❌ No |
+| `grupo_investigacion` | String | Nombre del grupo al que pertenece | `GI-Agricultura Sostenible` | ❌ No | Texto libre |
+| `linea_investigacion` | String | Línea principal de investigación | `Producción Agrícola` | ❌ No | Texto libre |
+| `email` | String | Correo electrónico institucional | `jperez@utmachala.edu.ec` | ❌ No | Email válido |
 
 ---
 
 ## Reglas de Validación
 
-1. **Cédula ecuatoriana:** Debe tener exactamente 10 dígitos numéricos.
+1. **Cédula ecuatoriana:** Exactamente 10 dígitos numéricos.
 2. **IPPC:** No puede ser negativo. Valor típico entre 0 y 20.
-3. **Booleanos:** Solo aceptan `Sí`/`No` o `1`/`0` o `TRUE`/`FALSE`.
-4. **Facultad:** Debe coincidir con las siglas oficiales de la institución.
-5. **Sin duplicados:** `id_docente` debe ser único en cada archivo.
+3. **Facultad:** Solo valores: `FCA`, `FCQS`, `FCE`, `FIC`, `FCS`.
+4. **Sin duplicados:** `id_docente` debe ser único.
 
 ---
 
@@ -74,15 +69,15 @@ Este documento define la estructura esperada para los conjuntos de datos utiliza
 
 | Campo | Fórmula | Descripción |
 |-------|---------|-------------|
-| `cluster` | Percentil de IPPC | Clasificación: A(≥P90), B(P50-89), C(P25-49), D(<P25) |
-| `produccion_total` | Scopus + WoS + Latindex + Libros | Suma de toda la producción indexada |
-| `es_masa_critica` | cluster IN (A, B) | Indica si cuenta como masa crítica |
+| `cluster` | Percentil de IPPC | A(≥P90), B(P50-89), C(P25-49), D(<P25) |
+| `produccion_total` | Scopus + WoS + Latindex + Libros | Suma de producción indexada |
+| `es_masa_critica` | cluster IN (A, B) | Si cuenta como masa crítica |
 
 ---
 
 ## Ejemplo de Registro
 
 ```csv
-id_docente,nombres,facultad,categoria,dedicacion,tiene_doctorado,acreditado_senescyt,categoria_senescyt,ippc,articulos_scopus,articulos_wos
-0912345678,Juan Carlos Pérez López,FCA,Principal,Tiempo Completo,Sí,Sí,Titular,4.25,6,3
+id_docente,nombres,facultad,categoria,dedicacion,tiene_doctorado,acreditado_senescyt,ippc
+0912345678,Juan Carlos Pérez López,FCA,Principal,Tiempo Completo,Sí,Sí,4.25
 ```

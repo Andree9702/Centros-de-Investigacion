@@ -4,7 +4,7 @@
 
 ---
 
-**UNIVERSIDAD:** [Nombre de la Universidad]  
+**UNIVERSIDAD:** Universidad Técnica de Machala (UTMACH)  
 **FACULTAD:** [Nombre de la Facultad]  
 **NOMBRE PROPUESTO DEL CENTRO:** Centro de Investigación [Nombre]  
 **FECHA DE ELABORACIÓN:** [Fecha]  

@@ -6,9 +6,9 @@
 
 ---
 
-**UNIVERSIDAD:** [Nombre de la Universidad]  
-**FACULTAD:** Facultad de Ciencias Administrativas (FCA)  
-**NOMBRE PROPUESTO DEL CENTRO:** Centro de Investigación en Ciencias Administrativas y Empresariales (CICAE)  
+**UNIVERSIDAD:** Universidad Técnica de Machala (UTMACH)  
+**FACULTAD:** Facultad de Ciencias Agropecuarias (FCA)  
+**NOMBRE PROPUESTO DEL CENTRO:** Centro de Investigación en Ciencias Agropecuarias  
 **FECHA DE ELABORACIÓN:** Febrero 2026
 
 ---
@@ -17,9 +17,9 @@
 
 *[PENDIENTE: Completar tras análisis de datos IPPC]*
 
-El Centro de Investigación en Ciencias Administrativas y Empresariales (CICAE) se propone como una unidad académica dedicada a la generación de conocimiento científico en las áreas de administración, contabilidad, finanzas, marketing y desarrollo organizacional.
+El Centro de Investigación en Ciencias Agropecuarias se propone como una unidad académica dedicada a la generación de conocimiento científico en las áreas de agricultura, ganadería, acuicultura, recursos naturales y desarrollo rural sostenible.
 
-La propuesta se fundamenta en el análisis de la masa crítica de investigadores de la FCA, identificando un núcleo de docentes con producción científica sostenida y acreditación SENESCYT que justifica la formalización de un centro.
+La FCA ha sido identificada como una de las **facultades con mayor producción científica** de la UTMACH, lo que justifica la creación de un centro piloto de investigación.
 
 ---
 
@@ -27,25 +27,27 @@ La propuesta se fundamenta en el análisis de la masa crítica de investigadores
 
 ### 2.1. Pertinencia Académica y Científica
 
-*[PENDIENTE: Completar con datos específicos del análisis]*
+*[PENDIENTE: Completar con datos específicos del análisis IPPC]*
 
 - La FCA cuenta con [X] docentes con dedicación a tiempo completo
 - [X] investigadores están acreditados por SENESCYT
 - El IPPC promedio de la facultad es [X.XX]
-- Existen [X] grupos de investigación informales activos
+- Tradición de investigación en temas agrícolas y pecuarios de la región
 
 ### 2.2. Pertinencia Social y Económica
 
-El centro contribuirá al desarrollo empresarial de la región mediante:
-- Investigación aplicada en PYMES y emprendimientos
-- Estudios de competitividad regional
-- Análisis de cadenas productivas locales
+El centro contribuirá al desarrollo agropecuario de la provincia de El Oro y la región mediante:
+- Investigación aplicada en producción bananera (principal cultivo de la región)
+- Estudios de desarrollo rural y agricultura familiar
+- Investigación en acuicultura y producción camaronera
+- Manejo sostenible de recursos naturales
 
 ### 2.3. Alineación con Normativa
 
 - LOES Art. 8: Fines de la educación superior
 - Reglamento de Régimen Académico CES
-- Plan Estratégico Institucional 2024-2028
+- Plan Nacional de Desarrollo Ecuador
+- Plan Estratégico UTMACH 2024-2028
 
 ---
 
@@ -53,14 +55,14 @@ El centro contribuirá al desarrollo empresarial de la región mediante:
 
 ### 3.1. Objetivo General
 
-Generar conocimiento científico en las ciencias administrativas y empresariales que contribuya al desarrollo económico y social de la región.
+Generar conocimiento científico en las ciencias agropecuarias que contribuya al desarrollo sostenible del sector agrícola, pecuario y acuícola de la región.
 
 ### 3.2. Objetivos Específicos
 
-1. Desarrollar investigaciones en líneas prioritarias de administración y contabilidad
+1. Desarrollar investigaciones en líneas prioritarias de producción agropecuaria
 2. Publicar resultados en revistas indexadas (Scopus, WoS, Latindex)
 3. Formar investigadores junior vinculados a programas de posgrado
-4. Establecer alianzas con el sector productivo para investigación aplicada
+4. Establecer alianzas con el sector productivo agrícola y agroindustrial
 
 ---
 
@@ -68,10 +70,11 @@ Generar conocimiento científico en las ciencias administrativas y empresariales
 
 | # | Línea de Investigación | Descripción |
 |---|------------------------|-------------|
-| 1 | Gestión Empresarial y Competitividad | Estudios de productividad, innovación y desarrollo organizacional |
-| 2 | Contabilidad y Finanzas Sostenibles | Reportes integrados, finanzas verdes, auditoría |
-| 3 | Marketing y Comportamiento del Consumidor | Investigación de mercados, marketing digital |
-| 4 | Emprendimiento e Innovación | Ecosistemas emprendedores, startups, incubación |
+| 1 | Producción Agrícola Sostenible | Cultivos, manejo de suelos, agricultura orgánica |
+| 2 | Producción Pecuaria | Ganadería, nutrición animal, mejoramiento genético |
+| 3 | Acuicultura y Recursos Hidrobiológicos | Camarón, tilapia, recursos costeros |
+| 4 | Agronegocios y Desarrollo Rural | Cadenas productivas, economía agrícola |
+| 5 | Recursos Naturales y Ambiente | Conservación, cambio climático, agroecología |
 
 ---
 
@@ -94,12 +97,13 @@ Generar conocimiento científico en las ciencias administrativas y empresariales
 
 ## 6. PRÓXIMOS PASOS
 
-1. [ ] Completar análisis de datos IPPC de docentes FCA
-2. [ ] Identificar investigadores Cluster A y B
-3. [ ] Validar líneas de investigación con Consejo de Facultad
-4. [ ] Completar secciones pendientes de esta propuesta
-5. [ ] Obtener firmas de respaldo
+1. [ ] Recibir Excel de IPPC del DIDI
+2. [ ] Ejecutar análisis de clustering para FCA
+3. [ ] Identificar investigadores Cluster A y B
+4. [ ] Validar líneas de investigación con Consejo de Facultad
+5. [ ] Completar secciones pendientes
+6. [ ] Obtener firmas de respaldo
 
 ---
 
-*Este documento es un borrador inicial. Se actualizará tras el análisis completo de datos.*
+*Este documento es un borrador inicial. Se actualizará tras el análisis completo de datos proporcionado por el DIDI.*

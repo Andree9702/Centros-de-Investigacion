@@ -1,4 +1,4 @@
-# 📜 REGLAMENTO GENERAL DE CENTROS DE INVESTIGACIÓN
+# 📜 REGLAMENTO GENERAL DE CENTROS DE INVESTIGACIÓN - UTMACH
 
 > **Estado:** Borrador v1.0  
 > **Fecha:** Febrero 2026  
@@ -10,7 +10,7 @@
 
 ### Artículo 1. Finalidad y Objeto
 
-El presente Reglamento tiene por objeto regular la creación, organización, funcionamiento, evaluación y eventual disolución de los Centros de Investigación de la Universidad [Nombre], en concordancia con la Ley Orgánica de Educación Superior (LOES) y el Reglamento de Régimen Académico del Consejo de Educación Superior (CES).
+El presente Reglamento tiene por objeto regular la creación, organización, funcionamiento, evaluación y eventual disolución de los Centros de Investigación de la **Universidad Técnica de Machala (UTMACH)**, en concordancia con la Ley Orgánica de Educación Superior (LOES) y el Reglamento de Régimen Académico del Consejo de Educación Superior (CES).
 
 ### Artículo 2. Base Legal
 
@@ -18,8 +18,8 @@ El presente Reglamento se fundamenta en:
 - Constitución de la República del Ecuador, Art. 350-355
 - Ley Orgánica de Educación Superior (LOES), Art. 8, 36, 145
 - Reglamento de Régimen Académico (CES), Art. 67-72
-- Estatuto de la Universidad [Nombre]
-- Plan Estratégico de Desarrollo Institucional
+- Estatuto de la Universidad Técnica de Machala
+- Plan Estratégico de Desarrollo Institucional UTMACH
 
 ### Artículo 3. Definición de Centro de Investigación
 

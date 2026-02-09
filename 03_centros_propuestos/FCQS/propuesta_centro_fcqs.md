@@ -6,9 +6,9 @@
 
 ---
 
-**UNIVERSIDAD:** [Nombre de la Universidad]  
+**UNIVERSIDAD:** Universidad Técnica de Machala (UTMACH)  
 **FACULTAD:** Facultad de Ciencias Químicas y de la Salud (FCQS)  
-**NOMBRE PROPUESTO DEL CENTRO:** Centro de Investigación en Ciencias Químicas, Farmacéuticas y de la Salud (CICQFS)  
+**NOMBRE PROPUESTO DEL CENTRO:** Centro de Investigación en Ciencias Químicas, Farmacéuticas y de la Salud  
 **FECHA DE ELABORACIÓN:** Febrero 2026
 
 ---
@@ -17,9 +17,9 @@
 
 *[PENDIENTE: Completar tras análisis de datos IPPC]*
 
-El Centro de Investigación en Ciencias Químicas, Farmacéuticas y de la Salud (CICQFS) se propone como una unidad académica especializada en la generación de conocimiento científico en las áreas de química, bioquímica, farmacia, enfermería y ciencias de la salud.
+El Centro de Investigación en Ciencias Químicas, Farmacéuticas y de la Salud se propone como una unidad académica especializada en la generación de conocimiento científico en las áreas de química, bioquímica, farmacia, enfermería y ciencias de la salud.
 
-La FCQS cuenta con docentes investigadores de alto perfil, varios con acreditación SENESCYT y publicaciones en revistas de alto impacto, lo que sustenta la viabilidad de este centro.
+La FCQS ha sido identificada como una de las **facultades con mayor potencial investigativo** de la UTMACH, con docentes de alto perfil y publicaciones en revistas de alto impacto.
 
 ---
 
@@ -37,17 +37,18 @@ La FCQS cuenta con docentes investigadores de alto perfil, varios con acreditaci
 ### 2.2. Pertinencia Social y Económica
 
 El centro contribuirá a la salud pública y desarrollo farmacéutico mediante:
-- Investigación en enfermedades tropicales y endémicas
-- Desarrollo de productos farmacéuticos locales
+- Investigación en enfermedades tropicales y endémicas de la región
+- Desarrollo de productos farmacéuticos y fitofármacos
 - Estudios de salud ocupacional y ambiental
 - Análisis de calidad de alimentos y medicamentos
+- Investigación en enfermería y cuidados de la salud
 
 ### 2.3. Alineación con Normativa
 
 - LOES Art. 8: Fines de la educación superior
 - Reglamento de Régimen Académico CES
 - Plan Nacional de Desarrollo - Eje Salud
-- Plan Estratégico Institucional 2024-2028
+- Plan Estratégico UTMACH 2024-2028
 
 ---
 
@@ -55,14 +56,14 @@ El centro contribuirá a la salud pública y desarrollo farmacéutico mediante:
 
 ### 3.1. Objetivo General
 
-Generar conocimiento científico en las ciencias químicas, farmacéuticas y de la salud que contribuya a mejorar la calidad de vida de la población y el desarrollo del sector farmacéutico regional.
+Generar conocimiento científico en las ciencias químicas, farmacéuticas y de la salud que contribuya a mejorar la calidad de vida de la población y el desarrollo del sector salud regional.
 
 ### 3.2. Objetivos Específicos
 
-1. Desarrollar investigaciones en química aplicada y farmacología
+1. Desarrollar investigaciones en química aplicada, farmacología y salud pública
 2. Publicar resultados en revistas indexadas de alto impacto (Q1-Q2)
 3. Formar investigadores en programas de maestría y doctorado
-4. Establecer convenios con laboratorios farmacéuticos e instituciones de salud
+4. Establecer convenios con instituciones de salud y laboratorios farmacéuticos
 
 ---
 
@@ -110,13 +111,13 @@ La FCQS cuenta con infraestructura de laboratorios que puede aprovecharse:
 
 ## 7. PRÓXIMOS PASOS
 
-1. [ ] Completar análisis de datos IPPC de docentes FCQS
-2. [ ] Identificar investigadores Cluster A y B
-3. [ ] Validar líneas de investigación con Consejo de Facultad
+1. [ ] Recibir Excel de IPPC del DIDI
+2. [ ] Ejecutar análisis de clustering para FCQS
+3. [ ] Identificar investigadores Cluster A y B
 4. [ ] Inventariar equipamiento disponible
-5. [ ] Completar secciones pendientes
-6. [ ] Obtener firmas de respaldo
+5. [ ] Validar líneas de investigación con Consejo de Facultad
+6. [ ] Completar secciones pendientes
 
 ---
 
-*Este documento es un borrador inicial. Se actualizará tras el análisis completo de datos.*
+*Este documento es un borrador inicial. Se actualizará tras el análisis completo de datos proporcionado por el DIDI.*
