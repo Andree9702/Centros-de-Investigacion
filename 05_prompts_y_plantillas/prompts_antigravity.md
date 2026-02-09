@@ -24,8 +24,8 @@ Realizar un análisis exhaustivo del dataset de IPPC por docente para:
 | `categoria` | Categoría docente (Principal, Asociado, Auxiliar) | String |
 | `dedicacion` | Régimen (Tiempo Completo, Tiempo Parcial, Dedicación Exclusiva) | String |
 | `tiene_doctorado` | Si posee grado de Doctor (PhD) | Booleano |
-| `es_renacyt` | Si está registrado en RENACYT | Booleano |
-| `grupo_renacyt` | Grupo RENACYT (I, II, III, IV, V, VI, VII) si aplica | String |
+| `acreditado_senescyt` | Si está acreditado como investigador por SENESCYT | Booleano |
+| `categoria_senescyt` | Categoría SENESCYT (Investigador Titular, Agregado, Auxiliar) si aplica | String |
 | `ippc` | Índice Ponderado de Producción Científica | Float |
 | `articulos_scopus` | Número de artículos indexados en Scopus | Int |
 | `articulos_wos` | Número de artículos indexados en WoS | Int |
@@ -48,7 +48,7 @@ Realizar un análisis exhaustivo del dataset de IPPC por docente para:
 1. Calcula para cada facultad:
    - **N° total de docentes**
    - **N° de doctores (PhD)**
-   - **N° de investigadores RENACYT** (y distribución por grupos)
+   - **N° de investigadores acreditados SENESCYT** (y distribución por categorías)
    - **IPPC promedio y mediana**
    - **Suma total de producción** (artículos Scopus + WoS + libros)
 2. Genera un **ranking de facultades** ordenado por IPPC promedio.
@@ -77,7 +77,7 @@ Para cada facultad, evalúa los siguientes criterios mínimos:
 
 | Criterio | Umbral Mínimo |
 |----------|---------------|
-| Investigadores RENACYT | ≥ 5 |
+| Investigadores acreditados SENESCYT | ≥ 5 |
 | Doctores (PhD) | ≥ 8 |
 | Investigadores Cluster A | ≥ 3 |
 | IPPC promedio | ≥ mediana institucional |
@@ -93,7 +93,7 @@ Genera los siguientes gráficos y guárdalos en `02_analisis/resultados/`:
 1. **Boxplot de IPPC por Facultad:** Comparación de distribuciones.
 2. **Gráfico de Barras:** Ranking de facultades por IMC.
 3. **Gráfico de Torta por Facultad:** Distribución de clusters (A, B, C, D).
-4. **Heatmap:** Correlación entre variables (IPPC, artículos, RENACYT, doctorado).
+4. **Heatmap:** Correlación entre variables (IPPC, artículos, acreditación SENESCYT, doctorado).
 5. **Tabla Resumen:** Dashboard con KPIs por facultad.
 
 ---
