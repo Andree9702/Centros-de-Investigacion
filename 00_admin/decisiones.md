@@ -74,3 +74,23 @@ Copie la siguiente plantilla y complete los campos:
 - **Responsable:** Equipo de análisis + DIDI
 
 ---
+
+## Registro 007: Eliminación de Prioridades A Priori
+- **Fecha:** 2026-02-09
+- **Estado:** 🟢 Aprobada
+- **Decisión:** Se eliminan las prioridades predefinidas (FCA Alta, FCE Media, etc.). Los datos determinarán qué facultades tienen mayor potencial.
+- **Justificación:** Director indica que establecer prioridades antes del análisis sesga los resultados.
+- **Responsable:** PhD. Ivan Ramirez
+
+---
+
+## Registro 008: Metodología de Dos Clusters
+- **Fecha:** 2026-02-09
+- **Estado:** 🟢 Aprobada
+- **Decisión:** Se implementarán **dos enfoques de clustering**:
+  1. **Cluster IPPC:** Por percentiles de productividad individual (A-Élite, B-Consolidados, C-En Desarrollo, D-Sin Actividad)
+  2. **Cluster Temático:** Agrupación de artículos por afinidad en títulos, ponderado por nivel de impacto (Q1 > Q2 > Q3 > Q4 > Sin Cuartil)
+- **Justificación:** Director: "No es lo mismo tener 100 artículos Latindex sobre banano que 50 Q1 sobre bioquímica". La fortaleza temática ponderada revela capacidades reales.
+- **Responsable:** PhD. Ivan Ramirez + Equipo
+
+---

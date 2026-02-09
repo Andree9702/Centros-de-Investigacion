@@ -1,0 +1,168 @@
+
+============================================================
+ARCHIVO: IPPC ultimo año 2025.xlsx
+============================================================
+
+--- DIMENSIONES ---
+Filas: 598, Columnas: 10
+
+--- COLUMNAS ---
+  1. UNIVERSIDAD TÉCNICA DE MACHALA
+  2. Unnamed: 1
+  3. Unnamed: 2
+  4. Unnamed: 3
+  5. Unnamed: 4
+  6. Unnamed: 5
+  7. Unnamed: 6
+  8. Unnamed: 7
+  9. Unnamed: 8
+  10. Unnamed: 9
+
+--- TIPOS DE DATOS ---
+  UNIVERSIDAD TÉCNICA DE MACHALA: str
+  Unnamed: 1: str
+  Unnamed: 2: str
+  Unnamed: 3: str
+  Unnamed: 4: str
+  Unnamed: 5: str
+  Unnamed: 6: str
+  Unnamed: 7: str
+  Unnamed: 8: str
+  Unnamed: 9: str
+
+--- PRIMERAS 5 FILAS ---
+                                 UNIVERSIDAD TÉCNICA DE MACHALA                          Unnamed: 1  Unnamed: 2                     Unnamed: 3                                 Unnamed: 4                    Unnamed: 5         Unnamed: 6       Unnamed: 7       Unnamed: 8  Unnamed: 9
+0  VALOR DEL IPPC DE LOS DOCENTES (INCLUIDO VALIDADO POR AUTOR)                                 NaN         NaN                            NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+1                       Desde el 2025-01-01 hasta el 2025-12-31                                 NaN         NaN                            NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+2                                                          Nro.                            FACULTAD   DOCUMENTO                        NOMBRES                                      CARGO                    DEDICACIÓN  IPPC Prod. Cient.  IPPC Prod. Art.  IPPC Prop. Int.  VALOR IPPC
+3                                                             1  FACULTAD DE CIENCIAS EMPRESARIALES  1728083237               BONISOLI LORENZO  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)               8.85                0                0        8.85
+4                                                             2  FACULTAD DE CIENCIAS AGROPECUARIAS  0703870030  QUEVEDO GUERRERO JOSE NICASIO  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)               8.42                0                0        8.42
+
+--- ÚLTIMAS 3 FILAS ---
+                                            UNIVERSIDAD TÉCNICA DE MACHALA                                   Unnamed: 1  Unnamed: 2                         Unnamed: 3                                 Unnamed: 4                    Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9
+595                                                                    593           FACULTAD DE CIENCIAS EMPRESARIALES  0704047646  GARCES QUILAMBAQUI RONALD GABRIEL  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)          0          0          0          0
+596                                                                    594  FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD  0705391399        LEON CUEVA RICARDO VALENTIN                       PROFESOR OCASIONAL 1  TIEMPO COMPLETO - (40 HORAS)          0          0          0          0
+597  Generado por: SIC/REPORTES 2026-02-09 13:13:13 - Emitido por: aapolos                                          NaN         NaN                                NaN                                        NaN                           NaN        NaN        NaN        NaN        NaN
+
+--- VALORES NULOS POR COLUMNA ---
+  Unnamed: 1: 3 nulos (0.5%)
+  Unnamed: 2: 3 nulos (0.5%)
+  Unnamed: 3: 3 nulos (0.5%)
+  Unnamed: 4: 3 nulos (0.5%)
+  Unnamed: 5: 3 nulos (0.5%)
+  Unnamed: 6: 3 nulos (0.5%)
+  Unnamed: 7: 3 nulos (0.5%)
+  Unnamed: 8: 3 nulos (0.5%)
+  Unnamed: 9: 3 nulos (0.5%)
+
+============================================================
+ARCHIVO: IPPC ultimos 2 años.xlsx
+============================================================
+
+--- DIMENSIONES ---
+Filas: 599, Columnas: 10
+
+--- COLUMNAS ---
+  1. UNIVERSIDAD TÉCNICA DE MACHALA
+  2. Unnamed: 1
+  3. Unnamed: 2
+  4. Unnamed: 3
+  5. Unnamed: 4
+  6. Unnamed: 5
+  7. Unnamed: 6
+  8. Unnamed: 7
+  9. Unnamed: 8
+  10. Unnamed: 9
+
+--- TIPOS DE DATOS ---
+  UNIVERSIDAD TÉCNICA DE MACHALA: str
+  Unnamed: 1: str
+  Unnamed: 2: str
+  Unnamed: 3: str
+  Unnamed: 4: str
+  Unnamed: 5: str
+  Unnamed: 6: str
+  Unnamed: 7: str
+  Unnamed: 8: str
+  Unnamed: 9: str
+
+--- PRIMERAS 5 FILAS ---
+                                 UNIVERSIDAD TÉCNICA DE MACHALA                          Unnamed: 1  Unnamed: 2                Unnamed: 3                                 Unnamed: 4                    Unnamed: 5         Unnamed: 6       Unnamed: 7       Unnamed: 8  Unnamed: 9
+0  VALOR DEL IPPC DE LOS DOCENTES (INCLUIDO VALIDADO POR AUTOR)                                 NaN         NaN                       NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+1                       Desde el 2024-01-01 hasta el 2025-12-31                                 NaN         NaN                       NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+2                                                          Nro.                            FACULTAD   DOCUMENTO                   NOMBRES                                      CARGO                    DEDICACIÓN  IPPC Prod. Cient.  IPPC Prod. Art.  IPPC Prop. Int.  VALOR IPPC
+3                                                             1  FACULTAD DE CIENCIAS EMPRESARIALES  1728083237          BONISOLI LORENZO  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)              17.82                0                0       17.82
+4                                                             2  FACULTAD DE CIENCIAS EMPRESARIALES  0704177575  LEON SERRANO LADY ANDREA  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)              12.43                0                0       12.43
+
+--- ÚLTIMAS 3 FILAS ---
+                                            UNIVERSIDAD TÉCNICA DE MACHALA                    Unnamed: 1  Unnamed: 2                    Unnamed: 3                                 Unnamed: 4                    Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9
+596                                                                    594  FACULTAD DE INGENIERÍA CIVIL  0701790057  ZARATE ENCALADA JOSE MARCELO  PROFESOR TITULAR AUXILIAR NIVEL 1 GRADO 1  TIEMPO COMPLETO - (40 HORAS)          0          0          0          0
+597                                                                    595        ADMINISTRACION CENTRAL  0704535798   MOSCOSO PARRA ANA ELIZABETH                    DIRECTOR DE VINCULACION  TIEMPO COMPLETO - (40 HORAS)          0          0          0          0
+598  Generado por: SIC/REPORTES 2026-02-09 13:15:12 - Emitido por: aapolos                           NaN         NaN                           NaN                                        NaN                           NaN        NaN        NaN        NaN        NaN
+
+--- VALORES NULOS POR COLUMNA ---
+  Unnamed: 1: 3 nulos (0.5%)
+  Unnamed: 2: 3 nulos (0.5%)
+  Unnamed: 3: 3 nulos (0.5%)
+  Unnamed: 4: 3 nulos (0.5%)
+  Unnamed: 5: 3 nulos (0.5%)
+  Unnamed: 6: 3 nulos (0.5%)
+  Unnamed: 7: 3 nulos (0.5%)
+  Unnamed: 8: 3 nulos (0.5%)
+  Unnamed: 9: 3 nulos (0.5%)
+
+============================================================
+ARCHIVO: IPPC ultimos 3 años.xlsx
+============================================================
+
+--- DIMENSIONES ---
+Filas: 599, Columnas: 10
+
+--- COLUMNAS ---
+  1. UNIVERSIDAD TÉCNICA DE MACHALA
+  2. Unnamed: 1
+  3. Unnamed: 2
+  4. Unnamed: 3
+  5. Unnamed: 4
+  6. Unnamed: 5
+  7. Unnamed: 6
+  8. Unnamed: 7
+  9. Unnamed: 8
+  10. Unnamed: 9
+
+--- TIPOS DE DATOS ---
+  UNIVERSIDAD TÉCNICA DE MACHALA: str
+  Unnamed: 1: str
+  Unnamed: 2: str
+  Unnamed: 3: str
+  Unnamed: 4: str
+  Unnamed: 5: str
+  Unnamed: 6: str
+  Unnamed: 7: str
+  Unnamed: 8: str
+  Unnamed: 9: str
+
+--- PRIMERAS 5 FILAS ---
+                                 UNIVERSIDAD TÉCNICA DE MACHALA                          Unnamed: 1  Unnamed: 2                Unnamed: 3                                 Unnamed: 4                    Unnamed: 5         Unnamed: 6       Unnamed: 7       Unnamed: 8  Unnamed: 9
+0  VALOR DEL IPPC DE LOS DOCENTES (INCLUIDO VALIDADO POR AUTOR)                                 NaN         NaN                       NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+1                       Desde el 2023-01-01 hasta el 2025-12-31                                 NaN         NaN                       NaN                                        NaN                           NaN                NaN              NaN              NaN         NaN
+2                                                          Nro.                            FACULTAD   DOCUMENTO                   NOMBRES                                      CARGO                    DEDICACIÓN  IPPC Prod. Cient.  IPPC Prod. Art.  IPPC Prop. Int.  VALOR IPPC
+3                                                             1  FACULTAD DE CIENCIAS EMPRESARIALES  1728083237          BONISOLI LORENZO  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)              25.37                0                0       25.37
+4                                                             2  FACULTAD DE CIENCIAS EMPRESARIALES  0704177575  LEON SERRANO LADY ANDREA  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2  TIEMPO COMPLETO - (40 HORAS)              16.28                0                0       16.28
+
+--- ÚLTIMAS 3 FILAS ---
+                                            UNIVERSIDAD TÉCNICA DE MACHALA                    Unnamed: 1  Unnamed: 2                       Unnamed: 3                                 Unnamed: 4                    Unnamed: 5 Unnamed: 6 Unnamed: 7 Unnamed: 8 Unnamed: 9
+596                                                                    594  FACULTAD DE INGENIERÍA CIVIL  0703234963  ZAMBRANO CARRION VERONICA SOFIA                            TÉCNICO DOCENTE     TIEMPO MEDIO - (20 HORAS)          0          0          0          0
+597                                                                    595  FACULTAD DE INGENIERÍA CIVIL  0701790057     ZARATE ENCALADA JOSE MARCELO  PROFESOR TITULAR AUXILIAR NIVEL 1 GRADO 1  TIEMPO COMPLETO - (40 HORAS)          0          0          0          0
+598  Generado por: SIC/REPORTES 2026-02-09 13:13:37 - Emitido por: aapolos                           NaN         NaN                              NaN                                        NaN                           NaN        NaN        NaN        NaN        NaN
+
+--- VALORES NULOS POR COLUMNA ---
+  Unnamed: 1: 3 nulos (0.5%)
+  Unnamed: 2: 3 nulos (0.5%)
+  Unnamed: 3: 3 nulos (0.5%)
+  Unnamed: 4: 3 nulos (0.5%)
+  Unnamed: 5: 3 nulos (0.5%)
+  Unnamed: 6: 3 nulos (0.5%)
+  Unnamed: 7: 3 nulos (0.5%)
+  Unnamed: 8: 3 nulos (0.5%)
+  Unnamed: 9: 3 nulos (0.5%)

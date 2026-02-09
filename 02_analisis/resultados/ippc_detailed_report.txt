@@ -1,0 +1,104 @@
+======================================================================
+INFORME DETALLADO DE ANÁLISIS IPPC - UTMACH
+Fecha de generación: 2026-02-09
+======================================================================
+
+======================================================================
+1. RESUMEN COMPARATIVO POR PERÍODO
+======================================================================
+
+--- 1_AÑO ---
+  Total docentes: 595
+  Docentes con IPPC > 0: 431
+  Docentes con IPPC = 0: 163
+  IPPC Promedio (global): 0.8167
+  IPPC Promedio (solo > 0): 1.1255
+  IPPC Máximo: 8.85
+  IPPC Mediana: 0.3500
+
+--- 2_AÑOS ---
+  Total docentes: 596
+  Docentes con IPPC > 0: 486
+  Docentes con IPPC = 0: 109
+  IPPC Promedio (global): 1.3701
+  IPPC Promedio (solo > 0): 1.6774
+  IPPC Máximo: 17.82
+  IPPC Mediana: 0.7800
+
+--- 3_AÑOS ---
+  Total docentes: 596
+  Docentes con IPPC > 0: 495
+  Docentes con IPPC = 0: 100
+  IPPC Promedio (global): 1.7347
+  IPPC Promedio (solo > 0): 2.0852
+  IPPC Máximo: 25.37
+  IPPC Mediana: 1.0400
+
+======================================================================
+2. DISTRIBUCIÓN POR FACULTAD (IPPC 3 AÑOS)
+======================================================================
+
+                                             Total_Docentes  Docentes_Activos  IPPC_Promedio  IPPC_Suma  IPPC_Max  IPPC_Mediana  Pct_Activos
+FACULTAD                                                                                                                                    
+FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD             178               143         1.8739     333.56     10.67         1.205         80.3
+FACULTAD DE CIENCIAS EMPRESARIALES                      128               113         2.1118     270.31     25.37         1.195         88.3
+FACULTAD DE CIENCIAS SOCIALES                           150               125         1.4938     224.07     15.13         0.990         83.3
+FACULTAD DE CIENCIAS AGROPECUARIAS                       75                62         1.7133     128.50     15.67         0.890         82.7
+FACULTAD DE INGENIERÍA CIVIL                             57                46         1.1709      66.74      7.25         0.870         80.7
+ADMINISTRACION CENTRAL                                    7                 6         1.2829       8.98      2.58         1.550         85.7
+FACULTAD                                                  1                 0            NaN       0.00       NaN           NaN          0.0
+
+======================================================================
+3. TOP 10 DOCENTES POR IPPC (3 AÑOS)
+======================================================================
+
+                             NOMBRES                                    FACULTAD  VALOR_IPPC                                      CARGO
+                    BONISOLI LORENZO          FACULTAD DE CIENCIAS EMPRESARIALES       25.37  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2
+            LEON SERRANO LADY ANDREA          FACULTAD DE CIENCIAS EMPRESARIALES       16.28  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2
+       QUEVEDO GUERRERO JOSE NICASIO          FACULTAD DE CIENCIAS AGROPECUARIAS       15.67  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2
+          VILELA PINCAY WILSON EXSON               FACULTAD DE CIENCIAS SOCIALES       15.13                       PROFESOR OCASIONAL 1
+      SALCEDO MUÑOZ VIRGILIO EDUARDO          FACULTAD DE CIENCIAS EMPRESARIALES       13.27  PROFESOR TITULAR AGREGADO NIVEL 3 GRADO 5
+RIVADENEIRA RODRIGUEZ ELMINA MATILDE               FACULTAD DE CIENCIAS SOCIALES       12.33  PROFESOR TITULAR AUXILIAR NIVEL 2 GRADO 2
+          LEON CUEVA WILSON PATRICIO FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD       10.67                       PROFESOR OCASIONAL 1
+           FONTAINES RUIZ TOMAS IVAN          FACULTAD DE CIENCIAS EMPRESARIALES        9.90 PROFESOR TITULAR PRINCIPAL NIVEL 2 GRADO 7
+       CHAMBA TANDAZO MARLENE JOHANA FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD        9.76  PROFESOR TITULAR AGREGADO NIVEL 1 GRADO 3
+       TUSA JUMBO FERNANDA ESPERANZA               FACULTAD DE CIENCIAS SOCIALES        9.27  PROFESOR TITULAR AUXILIAR NIVEL 1 GRADO 1
+
+======================================================================
+4. CLUSTERING POR PERCENTILES (3 AÑOS)
+======================================================================
+
+Percentiles (solo docentes con IPPC > 0, n=495):
+  P90 (Élite): >= 4.5240
+  P50 (Consolidados): 1.3700 - 4.5240
+  P25 (En Desarrollo): 0.6450 - 1.3700
+  <P25 (Sin Actividad Significativa): < 0.6450
+
+--- Distribución de Clusters por Facultad ---
+Cluster                                      A - Élite  B - Consolidados  C - En Desarrollo  D - Sin Actividad Significativa
+FACULTAD                                                                                                                    
+ADMINISTRACION CENTRAL                               0                 4                  0                                2
+FACULTAD DE CIENCIAS AGROPECUARIAS                   7                24                  9                               22
+FACULTAD DE CIENCIAS EMPRESARIALES                  15                43                 29                               26
+FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD         19                60                 35                               29
+FACULTAD DE CIENCIAS SOCIALES                        7                50                 36                               32
+FACULTAD DE INGENIERÍA CIVIL                         2                17                 14                               13
+
+======================================================================
+5. MASA CRÍTICA POR FACULTAD (Clusters A + B)
+======================================================================
+
+FACULTAD
+FACULTAD DE CIENCIAS QUÍMICAS Y DE LA SALUD    79
+FACULTAD DE CIENCIAS EMPRESARIALES             58
+FACULTAD DE CIENCIAS SOCIALES                  57
+FACULTAD DE CIENCIAS AGROPECUARIAS             31
+FACULTAD DE INGENIERÍA CIVIL                   19
+ADMINISTRACION CENTRAL                          4
+
+======================================================================
+ARCHIVOS GENERADOS:
+  - c:\Users\andre\Mi unidad\DIRECCIÓN DE INVESTIGACIÓN\Centros de Investigación\02_analisis\resultados\ippc_detailed_report.txt
+  - c:\Users\andre\Mi unidad\DIRECCIÓN DE INVESTIGACIÓN\Centros de Investigación\02_analisis\resultados\ippc_3años_limpio.csv
+  - c:\Users\andre\Mi unidad\DIRECCIÓN DE INVESTIGACIÓN\Centros de Investigación\02_analisis\resultados\ippc_3años_activos_clustered.csv
+======================================================================

@@ -1,0 +1,70 @@
+
+==================================================
+ANALYZING: 2026-02-06_rpt_produccion_utmach_docentes (2).xlsx
+==================================================
+
+--- SHAPE ---
+(3266, 17)
+
+--- COLUMNS ---
+- UNIVERSIDAD TÉCNICA DE MACHALA
+- Unnamed: 1
+- Unnamed: 2
+- Unnamed: 3
+- Unnamed: 4
+- Unnamed: 5
+- Unnamed: 6
+- Unnamed: 7
+- Unnamed: 8
+- Unnamed: 9
+- Unnamed: 10
+- Unnamed: 11
+- Unnamed: 12
+- Unnamed: 13
+- Unnamed: 14
+- Unnamed: 15
+- Unnamed: 16
+
+--- INFO ---
+
+--- HEAD (First 3 rows) ---
+                UNIVERSIDAD TÉCNICA DE MACHALA            Unnamed: 1            Unnamed: 2          Unnamed: 3            Unnamed: 4             Unnamed: 5        Unnamed: 6 Unnamed: 7 Unnamed: 8          Unnamed: 9      Unnamed: 10             Unnamed: 11 Unnamed: 12  Unnamed: 13     Unnamed: 14  Unnamed: 15 Unnamed: 16
+0  PRODUCCIÓN CIENTÍFICA AGRUPADA POR DOCENTES                   NaN                   NaN                 NaN                   NaN                    NaN               NaN        NaN        NaN                 NaN              NaN                     NaN         NaN          NaN             NaN          NaN         NaN
+1                                          NaN                   NaN                   NaN                 NaN                   NaN                    NaN               NaN        NaN        NaN                 NaN              NaN                     NaN         NaN          NaN             NaN          NaN         NaN
+2                                         Nro.  TITULO DE PRODUCCIÓN  CÓDIGO DE PRODUCCIÓN  TIPO DE PRODUCCIÓN  FECHA DE PUBLICACIÓN  ESTADO DE PUBLICACIÓN  ABSTRACT/RESUMEN  EDITORIAL     ENLACE  ESTADO DE REVISIÓN  CAMPO DETALLADO  LÍNEA DE INVESTIGACIÓN     CUARTIL  PONDERACIÓN  AUTORES UTMACH          NaN     AUTORES
+
+==================================================
+ANALYZING: GRUPOS DE INVESTIGACIÓN UTMACH.xlsx
+==================================================
+
+--- SHAPE ---
+(65, 8)
+
+--- COLUMNS ---
+- Código Grupo 
+- Grupo de investigación
+- Dominio 2019
+- Línea de investigación
+- Estado
+- Coordinador
+- Correo coordinador
+- Facultad de adscripción
+
+--- INFO ---
+
+--- HEAD (First 3 rows) ---
+  Código Grupo                                         Grupo de investigación                                  Dominio 2019                   Línea de investigación    Estado                     Coordinador           Correo coordinador Facultad de adscripción
+0       GRP-003                          Grupo de Investigación "Ororesearch"             Economía, empresa y productividad       Desarrollo económico y empresarial    ACTIVO    TINOCO EGAS RAQUEL MIROSLAVA    rmtinoco@utmachala.edu.ec                     FCE
+1       GRP-004  Grupo de Investigación  "Gestión y Emprendimiento (EMPNOVA)"             Economía, empresa y productividad       Desarrollo económico y empresarial  INACTIVO    BORJA HERRERA LAURA AMARILIS      lborja@utmachala.edu.ec                     FCE
+2       GRP-005                Grupo de Investigación "Internet de las cosas"  Tecnologías de la información y comunicación  Internet de las cosas y Cloud Computing  INACTIVO  HERNANDEZ ROJAS DIXYS LEONARDO  dhernandez@utmachala.edu.ec                     FIC
+
+--- SAMPLE VALUES FOR 'Facultad de adscripción' ---
+<StringArray>
+['FCE', 'FIC', 'FCS', 'FCA', 'FCCQS', 'GRP-061', ' ']
+Length: 7, dtype: str
+
+--- SAMPLE VALUES FOR 'Código Grupo ' ---
+<StringArray>
+['GRP-003', 'GRP-004', 'GRP-005', 'GRP-006', 'GRP-007', 'GRP-008', 'GRP-009',
+ 'GRP-010', 'GRP-011', 'GRP-012']
+Length: 10, dtype: str

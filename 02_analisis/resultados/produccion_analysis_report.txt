@@ -1,0 +1,147 @@
+======================================================================
+ANÁLISIS EXHAUSTIVO: PRODUCCIÓN CIENTÍFICA UTMACH
+Archivo: 2026-02-06_rpt_produccion_utmach_docentes (2).xlsx
+======================================================================
+
+--- COLUMNAS ENCONTRADAS ---
+  1. 'Unnamed: 0'
+  2. 'Unnamed: 1'
+  3. 'Unnamed: 2'
+  4. 'Unnamed: 3'
+  5. 'Unnamed: 4'
+  6. 'Unnamed: 5'
+  7. 'Unnamed: 6'
+  8. 'Unnamed: 7'
+  9. 'Unnamed: 8'
+  10. 'Unnamed: 9'
+  11. 'Unnamed: 10'
+  12. 'Unnamed: 11'
+  13. 'Unnamed: 12'
+  14. 'Unnamed: 13'
+  15. 'Unnamed: 14'
+  16. 'Unnamed: 15'
+  17. 'Unnamed: 16'
+
+--- DIMENSIONES DESPUÉS DE LIMPIEZA ---
+Total de registros (artículos): 3263
+
+--- COLUMNAS RENOMBRADAS ---
+  - Nro
+  - TITULO
+  - CODIGO
+  - TIPO_PRODUCCION
+  - FECHA_PUBLICACION
+  - ESTADO
+  - ABSTRACT
+  - EDITORIAL
+  - ENLACE
+  - ESTADO_REVISION
+  - CAMPO_DETALLADO
+  - LINEA_INVESTIGACION
+  - CUARTIL
+  - PONDERACION
+  - AUTORES_UTMACH
+  - COL15
+  - AUTORES
+
+======================================================================
+ANÁLISIS DE CUARTILES
+======================================================================
+
+Distribución de Cuartiles:
+CUARTIL
+NO APLICA    2847
+Q4            128
+Q1            104
+Q2             85
+Q3             84
+Q0             14
+CUARTIL         1
+
+--- RESUMEN CUARTILES ---
+  Q1 (Alto Impacto): 104 (3.2%)
+  Q2: 85 (2.6%)
+  Q3: 84 (2.6%)
+  Q4: 128 (3.9%)
+  Sin Cuartil/No Aplica: 2847 (87.3%)
+
+======================================================================
+ANÁLISIS DE TIPO DE PRODUCCIÓN
+======================================================================
+
+Distribución por Tipo:
+TIPO_PRODUCCION
+Artículo              2919
+Libro                  181
+Capítulo Libro         162
+TIPO DE PRODUCCIÓN       1
+
+======================================================================
+ANÁLISIS DE LÍNEAS DE INVESTIGACIÓN
+======================================================================
+
+Top 20 Líneas de Investigación:
+LINEA_INVESTIGACION
+Gestión Empresarial, Innovación y Sostenibilidad Productiva                     384
+Desarrollo y dinámicas económicas                                               344
+Atención integral en salud al individuo, familia y sociedad.                    314
+Sistemas Agroalimentarios Sostenibles y Bioeconomía Circular                    224
+Comunicación Digital, Educación e Innovación en la Sociedad del Conocimiento    171
+Justicia Social, Desarrollo Humano y Políticas Públicas                         170
+Educación Integral para el Bienestar y la Equidad                               165
+Determinantes, Salud Pública, Gestión Sanitaria y Enfermedades Transmisibles    155
+Ambiente y conservación                                                         146
+Desarrollo económico y empresarial                                              140
+Perfeccionamiento de la formación profesional                                   107
+Producción y desarrollo agroalimentario                                          99
+Psicología del Bienestar, Trauma y Adicciones                                    82
+Ciencia de Datos e Inteligencia Artificial (CDIA)                                58
+Salud y Bienestar Animal en Ecosistemas Sostenibles                              57
+Procesos químicos y materiales sostenibles                                       56
+Planificación de la infraestructura para el desarrollo territorial               54
+Procesos bioquímicos y farmacéuticos                                             53
+Emprendimiento empresarial                                                       49
+Alimentación, nutrición y dietética                                              47
+
+======================================================================
+ANÁLISIS DE PONDERACIÓN
+======================================================================
+
+Estadísticas de Ponderación:
+  Suma Total: 1818.20
+  Promedio: 0.5574
+  Mediana: 0.5000
+  Máximo: 2.00
+  Mínimo: 0.00
+
+--- Ponderación Promedio por Cuartil ---
+               mean     sum  count
+CUARTIL                           
+CUARTIL         NaN     0.0      0
+NO APLICA  0.520162  1480.9   2847
+Q0         0.000000     0.0     14
+Q1         1.000000   104.0    104
+Q2         0.900000    76.5     85
+Q3         0.800000    67.2     84
+Q4         0.700000    89.6    128
+
+======================================================================
+MUESTRA DE TÍTULOS DE ARTÍCULOS
+======================================================================
+
+Primeros 10 títulos:
+  1. TITULO DE PRODUCCIÓN...
+  2. CONTRA EL EDADISMO EN EL ÁMBITO RURAL: ESTRATEGIAS PARTICIPATIVAS DE INCLUSIÓN SOCIAL PARA PERSONAS ...
+  3. Factores de coberturas y uso de suelos asociados a los riesgos del estado y calidad de la vegetación...
+  4. Compuestos orgánicos en banano (Musa spp.) y su relación con el valor nutricional y aplicaciones agr...
+  5. Ética publicitaria en productos para niños: Análisis de los límites entre persuasión y manipulación...
+  6. Evaluación hidráulica del ramal A del canal de riego derivación Cabo de Lampa...
+  7. Resistencia antimicrobiana desde una perspectiva epidemiológica global. Revisión sistemática...
+  8. Modelo de probabilidades con enfoque en el salario básico unificado de los trabajadores...
+  9. Estimación de la evolución dinámica espacio-temporal de tierras potenciales de reforestación y su ca...
+  10. Turismo propobreza: análisis causal y estadístico en el contexto emergente ecuatoriano...
+
+======================================================================
+ARCHIVO EXPORTADO
+  - c:\Users\andre\Mi unidad\DIRECCIÓN DE INVESTIGACIÓN\Centros de Investigación\02_analisis\resultados\articulos_para_clustering.csv
+======================================================================
