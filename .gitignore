@@ -1,0 +1,40 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDES
+.vscode/
+.idea/
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Data (Ignorar datos sensibles o pesados)
+01_datos/raw/*
+!01_datos/raw/.gitkeep
+01_datos/clean/*
+!01_datos/clean/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.json
+*.zip
+
+# Logs
+*.log
