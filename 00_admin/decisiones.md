@@ -60,7 +60,7 @@ Copie la siguiente plantilla y complete los campos:
 ## Registro 005: Equipo del Proyecto
 - **Fecha:** 2026-02-08
 - **Estado:** 🟢 Aprobada
-- **Decisión:** El equipo principal está conformado por PhD. Ivan Ramirez (Director DIDI) y MSc. Luiggi Solano como colaboradores en GitHub.
+- **Decisión:** El equipo principal está conformado por PhD. Ivan Ramirez (Director DIDI), MSc. Andreé Vitonera y MSc. Luiggi Solano como colaboradores en GitHub.
 - **Justificación:** Garantizar supervisión técnica y académica del proyecto.
 - **Responsable:** Dirección de Investigación UTMACH
 

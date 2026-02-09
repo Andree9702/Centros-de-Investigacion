@@ -95,8 +95,8 @@ El proyecto busca analizar el IPPC (Índice Ponderado de Producción Científica
 | Rol | Nombre | Contacto |
 |-----|--------|----------|
 | **Director DIDI** | PhD. Ivan Ramirez | Dirección de Investigación, Desarrollo e Innovación |
-| **Colaborador** | MSc. Andreé Vitonera | DIDI |
-| **Colaborador** | MSc. Luiggi Solano | DIDI |
+| **Colaborador** | MSc. Andreé Vitonera | Dirección de Investigación, Desarrollo e Innovación |
+| **Colaborador** | MSc. Luiggi Solano | Dirección de Investigación, Desarrollo e Innovación |
 
 ---
 

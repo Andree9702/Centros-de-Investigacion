@@ -2,7 +2,7 @@
 
 > **Última actualización:** Febrero 2026  
 > **Responsable:** DIDI - PhD. Ivan Ramirez  
-> **Colaboradores:** MSc. Luiggi Solano
+> **Colaboradores:** MSc. Andreé Vitonera, MSc. Luiggi Solano
 
 ---
 

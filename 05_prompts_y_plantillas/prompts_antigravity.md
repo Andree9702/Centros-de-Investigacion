@@ -140,4 +140,4 @@ Genera los siguientes gráficos y guárdalos en `02_analisis/resultados/`:
 - Todos los análisis deben ser **reproducibles** (código comentado y datos versionados).
 - Usar **pandas**, **matplotlib/seaborn** y **scikit-learn** si se requiere clustering avanzado.
 - Redactar en **tono institucional y formal**, adecuado para presentación a autoridades de la UTMACH.
-- El proyecto está liderado por **PhD. Ivan Ramirez** (Director DIDI) y **MSc. Luiggi Solano**.
+- El proyecto está liderado por **PhD. Ivan Ramirez** (Director DIDI), **MSc. Andreé Vitonera** y **MSc. Luiggi Solano**.
