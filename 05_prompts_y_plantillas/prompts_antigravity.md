@@ -1,116 +1,96 @@
-# Prompt Maestro para Análisis de IPPC y Clustering - UTMACH
+# Prompt Maestro Definitivo - Centros de Investigación UTMACH
 
 ## Rol y Contexto
-Actúas como un **experto en ciencia de datos aplicada a gestión universitaria** con especialización en bibliometría y evaluación de la investigación científica. Tu objetivo es analizar la producción científica de la **Universidad Técnica de Machala (UTMACH)** para fundamentar técnicamente la creación de Centros de Investigación.
+Actúas como un **experto en ciencia de datos aplicada a gestión universitaria** con especialización en bibliometría y evaluación de la investigación científica. Tu objetivo es analizar la producción científica de la **Universidad Técnica de Machala (UTMACH)** para fundamentar técnicamente la creación de Centros de Investigación y Observatorios Académicos.
 
 ---
 
-## Objetivo Principal
+## Metodología Implementada: Sistema de Dos Vías
 
-Realizar un análisis exhaustivo mediante **dos tipos de clustering**:
+### Paso 1: Filtrado Base
+- Eliminamos **Libros, Capítulos de Libro y registros vacíos** del archivo de producción.
+- Resultado: **2,919 artículos científicos puros**.
 
-### 1. Cluster IPPC (Por Productividad Individual)
-Clasificar docentes en 4 niveles según su Índice Ponderado de Producción Científica:
+### Paso 2: Clasificación por Tipo de Investigación (NLP Léxico)
+Cada artículo se clasifica mediante análisis de su Abstract y Título:
 
-| Cluster | Nombre | Criterio IPPC |
-|---------|--------|---------------|
-| A | Investigadores Élite | ≥ percentil 90 |
-| B | Consolidados | percentil 50-89 |
-| C | En Desarrollo | percentil 25-49 |
-| D | Sin Actividad Significativa | < percentil 25 |
+| Tipo | Criterio | Resultado |
+|------|----------|-----------|
+| **EXPERIMENTAL** | Contiene keywords de laboratorio/campo/clínico | 1,371 (47.0%) |
+| **CIENCIAS SOCIALES** | Campo no-experimental + sin keywords experimentales | 1,209 (41.4%) |
+| **REVISIÓN BIBLIOGRÁFICA** | Contiene "revisión sistemática", "meta-análisis", etc. | 339 (11.6%) |
 
-### 2. 🆕 Cluster Temático (Por Afinidad de Artículos)
-Agrupar los ~3,200 artículos científicos por similitud en títulos, **ponderando por impacto**:
-
-| Cuartil | Peso |
-|---------|------|
-| Q1 | 1.00 |
-| Q2 | 0.90 |
-| Q3 | 0.80 |
-| Q4 | 0.70 |
-| Sin Cuartil | 0.52 |
-
-> **Objetivo:** Identificar **fortalezas temáticas** reales de la universidad.
-> 
-> *"No es lo mismo 100 artículos Latindex sobre banano que 50 Q1 sobre bioquímica"* — Director DIDI
+### Paso 3: Clustering Semántico por Contexto
+- **Corpus:** TITULO + ABSTRACT + LINEA_INVESTIGACION + CAMPO_DETALLADO
+- **Modelo:** TF-IDF (bigramas) + K-Means con selección automática por Silhouette Score
+- **Ponderación:** Q1=1.0, Q2=0.9, Q3=0.8, Q4=0.7, Sin Cuartil=valor original
 
 ---
 
-## Facultades de la UTMACH
+## Diccionarios Léxicos
 
-| Sigla | Nombre |
-|-------|--------|
-| FCA | Facultad de Ciencias Agropecuarias |
-| FCQS | Facultad de Ciencias Químicas y de la Salud |
-| FCE | Facultad de Ciencias Empresariales |
-| FIC | Facultad de Ingeniería Civil |
-| FCS | Facultad de Ciencias Sociales |
+### Keywords Experimentales
+```
+experimento, experimental, laboratorio, química, químico, sustancias,
+materiales, reactivos, in vitro, in vivo, síntesis, purificación,
+secuenciación, espectroscopía, cromatografía, microscopía, cultivo,
+cepas, inoculación, germinación, placebo, doble ciego, ensayo clínico,
+grupo control, muestras de sangre, concentración, dosis, tratamiento,
+variables independientes, aleatorizado, ANOVA, biomasa, fermentación,
+parcelas, suelo, riego, machine learning, deep learning, neural
+```
 
-> [!NOTE]
-> No hay prioridades predefinidas. Los datos determinarán qué facultades tienen mayor potencial.
+### Keywords de Exclusión (Revisiones)
+```
+revisión sistemática, systematic review, meta-análisis, meta-analysis,
+estado del arte, revisión bibliográfica, literature review, análisis documental,
+ensayo teórico, revisión narrativa, scoping review, bibliometría
+```
+
+### Campos No-Experimentales
+```
+Educación, Economía, Derecho, Administración, Mercadotecnia y publicidad,
+Contabilidad y auditoría, Periodismo y comunicación, Comercio,
+Formación para docentes, Estudios Sociales y Culturales
+```
+
+---
+
+## Resultados: Sistema de Dos Vías
+
+### VÍA A: Centros de Investigación Científico-Experimentales
+*(Alto presupuesto: laboratorios, reactivos, equipos)*
+
+| Centro | Artículos | Impacto Ponderado |
+|--------|-----------|-------------------|
+| C. Ciencias Químicas y Ambientales | 278 | 138.2 |
+| C. Salud Integral y Biociencias | 265 | 126.6 |
+| C. Agroalimentaria y Sostenibilidad | 178 | 91.2 |
+
+### VÍA B: Observatorios de Ciencias Sociales y Humanísticas
+*(Gestión ágil: software, encuestas, bases de datos)*
+
+| Observatorio | Artículos | Impacto Ponderado |
+|--------------|-----------|-------------------|
+| O. Economía, Empresa e Innovación | 547 | 269.6 |
+| O. Educación y Formación Profesional | 241 | 114.4 |
+| O. Derecho y Justicia Social | 127 | 64.8 |
+| O. Desarrollo Social y Políticas Públicas | 94 | 50.5 |
 
 ---
 
 ## Datos Disponibles
 
-### Archivo IPPC (596 docentes)
-| Variable | Descripción |
-|----------|-------------|
-| FACULTAD | Facultad de adscripción |
-| DOCUMENTO | Cédula |
-| NOMBRES | Nombre completo |
-| CARGO | Categoría docente |
-| DEDICACIÓN | Régimen de trabajo |
-| VALOR_IPPC | Índice ponderado (3 años) |
-
-### Archivo Producción (3,263 artículos)
-| Variable | Descripción |
-|----------|-------------|
-| TITULO | Título del artículo |
-| TIPO_PRODUCCION | Artículo, Libro, Capítulo |
-| LINEA_INVESTIGACION | Línea de investigación |
-| CUARTIL | Q1, Q2, Q3, Q4, NO APLICA |
-| PONDERACION | Valor numérico (0-2) |
-| AUTORES_UTMACH | Autores afiliados |
-
----
-
-## Instrucciones de Análisis
-
-### Fase 1: Clustering IPPC ✅
-1. Cargar `ippc_3años_limpio.csv`
-2. Clasificar docentes en clusters A, B, C, D por percentiles
-3. Calcular masa crítica por facultad (A + B)
-4. Generar ranking de facultades
-
-### Fase 2: Clustering Temático 🆕
-1. Cargar `articulos_para_clustering.csv`
-2. Preprocesar títulos (normalización, stopwords)
-3. Aplicar TF-IDF + clustering (K-Means o jerárquico)
-4. Para cada cluster temático:
-   - Identificar tema principal
-   - Calcular suma ponderada por cuartil
-   - Identificar facultades predominantes
-5. Generar **mapa de fortalezas temáticas**
-
-### Fase 3: Análisis Cruzado
-1. Cruzar clusters IPPC con clusters temáticos
-2. Identificar: ¿Los investigadores élite publican en Q1-Q2?
-3. Identificar: ¿Hay temas con alta producción pero bajo impacto?
-
----
-
-## Salida Esperada
-
-1. **Ranking de Facultades** por masa crítica (IPPC)
-2. **Mapa de Fortalezas Temáticas** (top 10 clusters con peso ponderado)
-3. **Recomendación** de qué facultades están listas para Centro de Investigación
-4. **Alertas** sobre áreas con alto volumen pero bajo impacto
+| Archivo | Registros | Descripción |
+|---------|-----------|-------------|
+| `produccion_clasificada_definitiva.csv` | 2,919 | Artículos con clasificación experimental/social y centro asignado |
+| `impacto_por_centro_definitivo.csv` | ~11 filas | Impacto ponderado por Centro/Observatorio |
+| `ippc_3años_activos_clustered.csv` | 596 | IPPC con clusters A-D por docente |
+| `REPORTE_FINAL_CENTROS.txt` | -- | Reporte narrativo completo |
 
 ---
 
 ## Notas
-- Todos los análisis deben ser **reproducibles**
-- Usar **pandas**, **scikit-learn**, **nltk/spacy** para NLP
+- Todos los análisis son **reproducibles** (`master_analysis.py`)
 - Redactar en **tono institucional** para presentación a autoridades
 - Equipo: PhD. Ivan Ramirez, MSc. Andreé Vitonera, MSc. Luiggi Solano

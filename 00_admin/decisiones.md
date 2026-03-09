@@ -94,3 +94,43 @@ Copie la siguiente plantilla y complete los campos:
 - **Responsable:** PhD. Ivan Ramirez + Equipo
 
 ---
+
+## Registro 009: Metodología de Clustering Temático
+- **Fecha:** 2026-02-20
+- **Estado:** 🟢 Implementada
+- **Decisión:** Se implementó el clustering temático usando:
+  - **Vectorización:** TF-IDF con stopwords en español + términos académicos genéricos, bigramas, `max_features=500`
+  - **Algoritmo:** K-Means con selección automática de K por Silhouette Score (K=20 óptimo)
+  - **Ponderación aprobada:** Q1=1.0, Q2=0.9, Q3=0.8, Q4=0.7, NO APLICA/Latindex 2.0=0.2
+  - **Resultado:** 20 clusters temáticos, 3,262 artículos analizados
+- **Hallazgos clave:**
+  - Cluster con mayor promedio de impacto: artículos en inglés (promedio 0.623, 83 Q1)
+  - Áreas temáticas diferenciadas: Banano/Agroalimentario, Gestión Empresarial, Educación Superior, Enfermería, Salud Pública
+  - 87.3% de artículos sin cuartil Scopus/WoS
+- **Archivos generados:** `clusters_tematicos.csv`, `resumen_clusters.csv`, `clusters_por_linea.csv`, visualizaciones en `figuras/`
+- **Responsable:** PhD. Ivan Ramirez + Equipo
+
+---
+
+## Registro 010: Clasificación Experimental vs Bibliográfica
+- **Fecha:** 2026-03-09
+- **Estado:** 🟢 Implementada
+- **Decisión:** Se implementó un **clasificador léxico NLP** que separa los 2,919 artículos en:
+  1. **Experimental (47.0%):** Investigaciones con trabajo de laboratorio, campo o clínico.
+  2. **Ciencias Sociales/Humanísticas (41.4%):** Investigaciones teóricas, documentales, socioeconómicas.
+  3. **Revisiones Bibliográficas (11.6%):** Meta-análisis, revisiones sistemáticas, estados del arte.
+- **Justificación:** La investigación experimental requiere presupuestos exponencialmente mayores (laboratorios, reactivos, equipos). Agruparla permite justificar asignaciones presupuestarias diferenciadas.
+- **Responsable:** PhD. Ivan Ramirez + Equipo
+
+---
+
+## Registro 011: Sistema de Dos Vías (Centros + Observatorios)
+- **Fecha:** 2026-03-09
+- **Estado:** 🟢 Implementada
+- **Decisión:** Se creó un **sistema de dos vías** para la propuesta de Centros:
+  - **Vía A - Centros de Investigación Científico-Experimentales:** Para artículos experimentales. Alto presupuesto (laboratorios, reactivos, equipos).
+  - **Vía B - Observatorios de Ciencias Sociales y Humanísticas:** Para artículos sociales/teóricos. Gestión ágil (software, encuestas, bases de datos).
+- **Archivos generados:** `produccion_clasificada_definitiva.csv`, `impacto_por_centro_definitivo.csv`, `REPORTE_FINAL_CENTROS.txt`
+- **Responsable:** PhD. Ivan Ramirez + Equipo
+
+---

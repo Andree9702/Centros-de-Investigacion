@@ -1,0 +1,113 @@
+======================================================================
+REPORTE FINAL: CENTROS DE INVESTIGACIÓN UTMACH
+Metodología: Clasificación por CAMPO_DETALLADO + Léxico LAB
+Ponderación: Q1=1.0 · Q2=0.9 · Q3=0.8 · Q4=0.7 · Sin Q=0.2
+Fecha: Marzo 2026
+======================================================================
+
+CLASIFICACIÓN DE LA PRODUCCIÓN CIENTÍFICA
+----------------------------------------
+  CIENCIAS_SOCIALES: 1146 (59.8%)
+  EXPERIMENTAL: 502 (26.2%)
+  BIBLIOGRÁFICA/REVISIÓN: 268 (14.0%)
+  TOTAL: 1916
+
+======================================================================
+VÍA A: CENTROS DE INVESTIGACIÓN CIENTÍFICO-EXPERIMENTALES
+======================================================================
+
+--- Centro de Investigación en Salud Integral y Biociencias Clínicas ---
+  Artículos:           332
+  Impacto Ponderado:   169.6
+  Promedio Ponderación:0.511
+  Q1:12  Q2:8  Q3:4  Q4:26
+  Muestra:
+    • [NO APLICA][Equilibrio salud-enfermedad] Prevalencia de Esteatosis Hepática No Alcohólica y su Relación con la Obesidad e...
+    • [NO APLICA][Prevención, promoción y cuidados] Influencia de un programa de entrenamiento físico en la recuperación posparto de...
+    • [NO APLICA][Prevención, promoción y cuidados] Percepción y prevención del cáncer de mama en la atención primaria de salud...
+    • [NO APLICA][Procesos bioquímicos y farmacéuticos] Impact of Maltodextrin–Inulin Blends on the Physicochemical, Functional, and Tec...
+
+--- Centro de Investigación en Ciencias Agropecuarias y Bioeconomía ---
+  Artículos:           82
+  Impacto Ponderado:   41.4
+  Promedio Ponderación:0.505
+  Q1:1  Q2:1  Q3:3  Q4:6
+  Muestra:
+    • [NO APLICA][Sistemas Agroalimentarios Sostenibles y ] Agricultura sostenible y sumideros de carbono en Ecuador: oportunidades de mitig...
+    • [NO APLICA][Producción y desarrollo agroalimentario] Bioenergy Valorization of Banana Peel Waste through Enzymatic Hydrolysis: a Circ...
+    • [NO APLICA][Producción y desarrollo agroalimentario] Evaluación Comparativa de Parámetros Físico-Químicos y Compuestos Fenólicos en l...
+    • [NO APLICA][Comunicación Digital, Educación e Innova] Vulnerability profile of South American authors to predatory publishing practice...
+
+--- Centro de Investigación en Ciencias Ambientales y Gestión del Territorio ---
+  Artículos:           69
+  Impacto Ponderado:   37.3
+  Promedio Ponderación:0.541
+  Q1:8  Q2:4  Q3:0  Q4:2
+  Muestra:
+    • [Q4][Ambiente y conservación] Factores de coberturas y uso de suelos asociados a los riesgos del estado y cali...
+    • [NO APLICA][Ambiente y conservación] Estimación de la evolución dinámica espacio-temporal de tierras potenciales de r...
+    • [NO APLICA][Ambiente y conservación] Microplásticos en aguas superficiales y sedimentos de manglar en tres islas del ...
+    • [NO APLICA][Ambiente y conservación] Modelamiento geoestadístico de la morfometría de Anadara tuberculosa para zonas ...
+
+--- Centro de Investigación en Ingeniería, Tecnología y Ciencias Exactas ---
+  Artículos:           19
+  Impacto Ponderado:   11.6
+  Promedio Ponderación:0.611
+  Q1:4  Q2:0  Q3:1  Q4:2
+  Muestra:
+    • [NO APLICA][Procesos químicos y materiales sostenibl] Simulación de un proceso de producción de isopropanol con separación azeotrópica...
+    • [NO APLICA][Gobierno y gestión de las Tecnologías de] Evaluación Empírica de Herramientas de Análisis Estático en un Ciclo Scrum de De...
+    • [NO APLICA][Procesos químicos y materiales sostenibl] Impacto de la evaporación en la calidad de productos finales: Un enfoque en la i...
+    • [Q4][Procesos químicos y materiales sostenibl] “Evaluation of the Antimicrobial Activity of Chitosan Biofilms Modified with Sil...
+
+======================================================================
+VÍA B: OBSERVATORIOS DE CIENCIAS SOCIALES Y HUMANÍSTICAS
+======================================================================
+
+--- Observatorio de Economía, Empresa e Innovación Productiva ---
+  Artículos:           680
+  Impacto Ponderado:   349.5
+  Promedio Ponderación:0.514
+  Q1:19  Q2:21  Q3:19  Q4:17
+  Muestra:
+    • [NO APLICA][Gestión Empresarial, Innovación y Sosten] Ética publicitaria en productos para niños: Análisis de los límites entre persua...
+    • [NO APLICA][Planificación de la infraestructura para] Evaluación hidráulica del ramal A del canal de riego derivación Cabo de Lampa...
+    • [NO APLICA][Desarrollo económico y empresarial] Modelo de probabilidades con enfoque en el salario básico unificado de los traba...
+    • [Q4][Turismo sostenible] Turismo propobreza: análisis causal y estadístico en el contexto emergente ecuat...
+
+--- Observatorio de Educación, Tecnología y Desarrollo Humano ---
+  Artículos:           236
+  Impacto Ponderado:   116.2
+  Promedio Ponderación:0.492
+  Q1:5  Q2:7  Q3:9  Q4:5
+  Muestra:
+    • [NO APLICA][Perfeccionamiento de la formación profes] Academic Workload and Mental Health in Veterinary Medicine Students: An Analysis...
+    • [NO APLICA][Ingeniería de software] Plataforma para incidentes en laboratorios académicos con Biblioteca de Infraest...
+    • [NO APLICA][Gobierno y gestión de las Tecnologías de] Aplicación web para la gestión automatizada de routers virtualizados Un enfoque ...
+    • [NO APLICA][Comunicación Digital, Educación e Innova] Impacto de ChatGPT en el pensamiento crítico en estudiantes del 10° EGB de Cienc...
+
+--- Observatorio de Derecho, Justicia Social y Políticas Públicas ---
+  Artículos:           121
+  Impacto Ponderado:   61.8
+  Promedio Ponderación:0.511
+  Q1:0  Q2:3  Q3:1  Q4:2
+  Muestra:
+    • [NO APLICA][Justicia y gobernabilidad] Estabilidad Laboral en el Sector Público y la Ley Orgánica de Integridad Publica...
+    • [NO APLICA][Desarrollo y dinámicas económicas] Buenas Prácticas de Comercio Justo en la Economía Popular y Solidaria: Sector Ca...
+    • [NO APLICA][Desarrollo económico y empresarial] Competencias gerenciales con enfoque de género para fortalecer proyección intern...
+    • [NO APLICA][Gestión Empresarial, Innovación y Sosten] Justicia organizacional en el contexto universitario: Influencia de la gestión a...
+
+--- Observatorio de Sociedad, Cultura y Comunicación ---
+  Artículos:           109
+  Impacto Ponderado:   60.6
+  Promedio Ponderación:0.556
+  Q1:7  Q2:7  Q3:9  Q4:1
+  Muestra:
+    • [NO APLICA][Sociedad y cultura] CONTRA EL EDADISMO EN EL ÁMBITO RURAL: ESTRATEGIAS PARTICIPATIVAS DE INCLUSIÓN S...
+    • [Q2][Comunicación Digital, Educación e Innova] Apomediation, AI, and the illusion of autonomy: risks of misinformation in patie...
+    • [NO APLICA][Infraestructura y ordenamiento territori] Valoración del patrimonio en la Plaza 9 de Octubre de Cuenca: Migración y apropi...
+    • [NO APLICA][Comunicación Digital, Educación e Innova] Inteligencia artificial en la academia: un enfoque crítico sobre la creación del...
+
+======================================================================
+REVISIONES BIBLIOGRÁFICAS (no asignadas): 268 artículos
+======================================================================
